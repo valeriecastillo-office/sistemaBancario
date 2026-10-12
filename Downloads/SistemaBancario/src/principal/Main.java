@@ -1,3 +1,4 @@
+//el main indicado
 package principal;
 
 import controlador.ControladorBanco;
