@@ -5,7 +5,7 @@
 package modelo;
 
 
- 
+ // vamoss  hcer fecha
 public class Fecha {
 
     private int dia;

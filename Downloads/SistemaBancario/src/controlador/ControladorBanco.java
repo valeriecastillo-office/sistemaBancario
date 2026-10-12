@@ -9,16 +9,13 @@ import modelo.CuentaCorriente;
 import modelo.Fecha;
 import vista.VistaBanco;
 
-/**
- * Controlador: escucha los botones de la vista, crea y modifica las
- * cuentas (modelo) y le devuelve los resultados a la vista.
- */
+
 public class ControladorBanco implements ActionListener {
 
-    private ArrayList<Cuenta> cuentas;  // aquí se guardan todas las cuentas
+    private ArrayList<Cuenta> cuentas;  
     private VistaBanco vista;
 
-    // Constructor: guarda la vista y se registra como escucha de sus botones
+  
     public ControladorBanco(VistaBanco vista) {
         this.vista = vista;
         this.cuentas = new ArrayList<Cuenta>();
