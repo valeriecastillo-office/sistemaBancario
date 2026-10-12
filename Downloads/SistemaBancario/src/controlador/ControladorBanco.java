@@ -1,3 +1,5 @@
+
+// agregamos controlador e importamos 
 package controlador;
 
 import java.awt.event.ActionEvent;
